@@ -23,4 +23,4 @@ const fs = require("fs");
 
 //[To append a File]
 
-fs.appendFileSync("./test.txt", ' ${Date.now()} Hey There\n' );
+fs.appendFileSync("./test.txt", ' ${Date.now()} Hey There\n' );  //similarly you can delete,copy,stats-define,etc using fs."operations"
